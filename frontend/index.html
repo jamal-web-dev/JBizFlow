@@ -1,0 +1,1365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Makes the website responsive on phones and tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="JBizFlow helps businesses manage sales, inventory, customers, employees and business operations in one place." />
+
+    <title>JBizFlow — Run Your Business. Keep Everything Flowing.</title>
+    <!-- Google Fonts: We will use Inter for the clean SaaS interface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- =========================================
+         NAVIGATION BAR
+         ========================================= -->
+    <header class="site-header">
+      <nav class="navbar container">
+        <!-- JBizFlow Logo -->
+        <a href="#" class="brand" aria-label="JBizFlow Home">
+          <!-- Temporary text logo.
+                     We can replace this with our final logo later. -->
+          <!-- <span class="brand-mark">J</span> -->
+          <span class="brand-name">J<em>BizFlow</em></span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links">
+          <a href="#features" class="nav-link">Features</a>
+
+          <a href="#how-it-works" class="nav-link">How It Works</a>
+
+          <a href="#pricing" class="nav-link">Pricing</a>
+        </div>
+
+        <!-- Desktop Navigation Actions -->
+        <div class="nav-actions">
+          <a href="#" class="login-link">Log in</a>
+
+          <a href="#" class="nav-cta"> Get Started </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button
+          class="mobile-menu-btn"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <a href="#features" class="mobile-nav-link"> Features </a>
+
+        <a href="#how-it-works" class="mobile-nav-link"> How It Works </a>
+
+        <a href="#pricing" class="mobile-nav-link"> Pricing </a>
+
+        <a href="#" class="mobile-nav-link"> Log in </a>
+
+        <a href="#" class="mobile-nav-cta"> Get Started </a>
+      </div>
+    </header>
+
+    <!--
+        The rest of the landing page will be added here.
+
+        IMPORTANT:
+        We are intentionally leaving the main content empty for now.
+        We will build the Hero section only after the navbar is
+        completely finished and tested.
+    -->
+
+    <main>
+      <!-- =========================================
+         HERO SECTION
+         ========================================= -->
+      <section class="hero" id="hero">
+        <div class="container hero-container">
+          <!-- =====================================
+                 HERO TEXT CONTENT
+                 ===================================== -->
+          <div class="hero-content">
+            <!-- Small introductory badge -->
+            <div class="hero-badge">
+              <span class="badge-dot"></span>
+
+              <span> Smarter business management </span>
+            </div>
+
+            <!-- Main headline -->
+            <h1 class="hero-title">
+              Run your business.
+              <span>Keep everything flowing.</span>
+            </h1>
+
+            <!-- Hero description -->
+            <p class="hero-description">
+              JBizFlow brings your sales, inventory, customers, employees and
+              business operations together in one powerful workspace.
+            </p>
+
+            <!-- Hero action buttons -->
+            <div class="hero-actions">
+              <a href="#" class="hero-primary-btn">
+                Start for Free
+
+                <span class="btn-arrow">→</span>
+              </a>
+
+              <a href="#how-it-works" class="hero-secondary-btn">
+                <span class="play-icon">▶</span>
+
+                See How It Works
+              </a>
+            </div>
+
+            <!-- Small trust message -->
+            <div class="hero-trust">
+              <span class="trust-check">✓</span>
+
+              <span> Built for growing businesses </span>
+            </div>
+          </div>
+
+          <!-- =====================================
+                 HERO DASHBOARD PREVIEW
+                 ===================================== -->
+          <div class="hero-visual">
+            <!-- Decorative glow behind dashboard -->
+            <div class="dashboard-glow"></div>
+
+            <!-- Dashboard mockup -->
+            <div class="dashboard-preview">
+              <!-- ==============================
+                         DASHBOARD TOP BAR
+                         ============================== -->
+              <div class="dashboard-topbar">
+                <div class="dashboard-window-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="dashboard-top-title">JBizFlow Dashboard</div>
+
+                <div class="dashboard-profile">
+                  <span class="notification-icon"> ♢ </span>
+
+                  <span class="profile-avatar"> J </span>
+                </div>
+              </div>
+
+              <!-- ==============================
+                         DASHBOARD BODY
+                         ============================== -->
+              <div class="dashboard-body">
+                <!-- Dashboard sidebar -->
+                <aside class="dashboard-sidebar">
+                  <div class="mini-brand">
+                    <span class="mini-brand-mark"> J </span>
+
+                    <span> JBizFlow </span>
+                  </div>
+
+                  <div class="sidebar-menu">
+                    <div class="sidebar-item active">
+                      <span>⌂</span>
+                      Dashboard
+                    </div>
+
+                    <div class="sidebar-item">
+                      <span>▣</span>
+                      Products
+                    </div>
+
+                    <div class="sidebar-item">
+                      <span>◫</span>
+                      Sales
+                    </div>
+
+                    <div class="sidebar-item">
+                      <span>♙</span>
+                      Customers
+                    </div>
+
+                    <div class="sidebar-item">
+                      <span>♧</span>
+                      Employees
+                    </div>
+                  </div>
+
+                  <div class="sidebar-bottom">
+                    <div class="sidebar-item">
+                      <span>⚙</span>
+                      Settings
+                    </div>
+                  </div>
+                </aside>
+
+                <!-- Main dashboard area -->
+                <div class="dashboard-main">
+                  <!-- Dashboard heading -->
+                  <div class="dashboard-heading">
+                    <div>
+                      <p class="dashboard-greeting">Good morning 👋</p>
+
+                      <h3>Here's your business overview</h3>
+                    </div>
+
+                    <div class="dashboard-date">This month ▾</div>
+                  </div>
+
+                  <!-- ==========================
+                                 STAT CARDS
+                                 ========================== -->
+                  <div class="stat-grid">
+                    <!-- Revenue -->
+                    <div class="stat-card">
+                      <div class="stat-card-top">
+                        <span> Revenue </span>
+
+                        <span class="stat-icon"> ₦ </span>
+                      </div>
+
+                      <strong> ₦1,240,000 </strong>
+
+                      <small class="positive"> ↑ 18.4% from last month </small>
+                    </div>
+
+                    <!-- Orders -->
+                    <div class="stat-card">
+                      <div class="stat-card-top">
+                        <span> Orders </span>
+
+                        <span class="stat-icon"> # </span>
+                      </div>
+
+                      <strong> 348 </strong>
+
+                      <small class="positive"> ↑ 12.8% from last month </small>
+                    </div>
+
+                    <!-- Customers -->
+                    <div class="stat-card">
+                      <div class="stat-card-top">
+                        <span> Customers </span>
+
+                        <span class="stat-icon"> ♙ </span>
+                      </div>
+
+                      <strong> 1,024 </strong>
+
+                      <small class="positive"> ↑ 8.2% from last month </small>
+                    </div>
+                  </div>
+
+                  <!-- ==========================
+                                 CHART + INVENTORY
+                                 ========================== -->
+                  <div class="dashboard-middle">
+                    <!-- Sales chart -->
+                    <div class="chart-card">
+                      <div class="chart-header">
+                        <div>
+                          <span> Sales overview </span>
+
+                          <strong> ₦842,500 </strong>
+                        </div>
+
+                        <span class="chart-period"> 6 months </span>
+                      </div>
+
+                      <!-- CSS-built chart -->
+                      <div class="chart">
+                        <div class="chart-grid-line line-one"></div>
+                        <div class="chart-grid-line line-two"></div>
+                        <div class="chart-grid-line line-three"></div>
+
+                        <div class="chart-bars">
+                          <span style="height: 42%"></span>
+                          <span style="height: 57%"></span>
+                          <span style="height: 48%"></span>
+                          <span style="height: 72%"></span>
+                          <span style="height: 64%"></span>
+                          <span style="height: 86%"></span>
+                        </div>
+                      </div>
+
+                      <div class="chart-labels">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                      </div>
+                    </div>
+
+                    <!-- Inventory card -->
+                    <div class="inventory-card">
+                      <div class="inventory-header">
+                        <div>
+                          <span> Inventory </span>
+
+                          <strong> 247 products </strong>
+                        </div>
+
+                        <span class="inventory-more"> ··· </span>
+                      </div>
+
+                      <div class="inventory-item">
+                        <div class="product-symbol">N</div>
+
+                        <div class="product-info">
+                          <strong> Nike Air Max </strong>
+
+                          <span> 18 in stock </span>
+                        </div>
+
+                        <span class="stock-good"> Good </span>
+                      </div>
+
+                      <div class="inventory-item">
+                        <div class="product-symbol">T</div>
+
+                        <div class="product-info">
+                          <strong> Classic T-Shirt </strong>
+
+                          <span> 4 in stock </span>
+                        </div>
+
+                        <span class="stock-warning"> Low </span>
+                      </div>
+
+                      <div class="inventory-item">
+                        <div class="product-symbol">J</div>
+
+                        <div class="product-info">
+                          <strong> Blue Jeans </strong>
+
+                          <span> 0 in stock </span>
+                        </div>
+
+                        <span class="stock-danger"> Out </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating notification -->
+            <div class="floating-notification">
+              <div class="floating-check">✓</div>
+
+              <div>
+                <strong> Sale completed </strong>
+
+                <span> ₦85,000 added to revenue </span>
+              </div>
+            </div>
+
+            <!-- Floating revenue indicator -->
+            <div class="floating-revenue">
+              <span class="revenue-arrow"> ↗ </span>
+
+              <div>
+                <small> Revenue </small>
+
+                <strong> +18.4% </strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     PROBLEM / WHY JBIZFLOW SECTION
+     ========================================= -->
+      <!-- =========================================
+     PROBLEM / WHY JBIZFLOW SECTION
+     ========================================= -->
+      <section class="problem-section" id="why-jbizflow">
+        <!-- Decorative network background -->
+        <div class="network network-left"></div>
+        <div class="network network-right"></div>
+
+        <!-- Small decorative stars -->
+        <div class="bg-particle particle-1"></div>
+        <div class="bg-particle particle-2"></div>
+        <div class="bg-particle particle-3"></div>
+        <div class="bg-particle particle-4"></div>
+        <div class="bg-particle particle-5"></div>
+
+        <div class="container problem-container">
+          <!-- =====================================
+             SECTION HEADING
+             ===================================== -->
+          <div class="section-heading problem-heading">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+
+              THE BUSINESS PROBLEM
+
+              <span class="eyebrow-line"></span>
+            </div>
+
+            <h2>
+              Your business shouldn't
+              <span>feel this complicated.</span>
+            </h2>
+
+            <p>
+              As your business grows, keeping track of products, sales,
+              customers and employees across different places quickly becomes
+              difficult.
+            </p>
+          </div>
+
+          <!-- =====================================
+             TRANSFORMATION AREA
+             ===================================== -->
+          <div class="problem-visual">
+            <!-- =================================
+                 LEFT: WITHOUT A SYSTEM
+                 ================================= -->
+            <div class="chaos-panel">
+              <!-- Panel label -->
+              <div class="panel-label panel-label-danger">
+                <span class="panel-status-icon"> × </span>
+
+                WITHOUT A SYSTEM
+              </div>
+
+              <!-- Decorative inner network -->
+              <div class="panel-network"></div>
+
+              <!-- Products -->
+              <div class="chaos-card chaos-product">
+                <div class="chaos-icon">
+                  <span>◇</span>
+                </div>
+
+                <div class="chaos-card-content">
+                  <strong>Products</strong>
+
+                  <span>Excel Sheets</span>
+                </div>
+              </div>
+
+              <!-- Sales -->
+              <div class="chaos-card chaos-sales">
+                <div class="chaos-icon sales-icon">
+                  <span>₦</span>
+                </div>
+
+                <div class="chaos-card-content">
+                  <strong>Sales</strong>
+
+                  <span>Notebook</span>
+                </div>
+              </div>
+
+              <!-- Customers -->
+              <div class="chaos-card chaos-customers">
+                <div class="chaos-icon customer-icon">
+                  <span>♧</span>
+                </div>
+
+                <div class="chaos-card-content">
+                  <strong>Customers</strong>
+
+                  <span>WhatsApp</span>
+                </div>
+              </div>
+
+              <!-- Employees -->
+              <div class="chaos-card chaos-employees">
+                <div class="chaos-icon employee-icon">
+                  <span>♙</span>
+                </div>
+
+                <div class="chaos-card-content">
+                  <strong>Employees</strong>
+
+                  <span>Different Files</span>
+                </div>
+              </div>
+
+              <!-- Warning symbols -->
+              <span class="warning warning-one">△</span>
+              <span class="warning warning-two">△</span>
+
+              <!-- Problem notes -->
+              <span class="chaos-note note-one"> Outdated </span>
+
+              <span class="chaos-note note-two"> Hard to track </span>
+
+              <!-- Bottom problem message -->
+              <div class="chaos-message">
+                <span class="message-icon"> ☹ </span>
+
+                <div>
+                  <strong>Too many places.</strong>
+
+                  <span> Too much to keep track of. </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- =================================
+                 CENTER TRANSFORMATION
+                 ================================= -->
+            <div class="transformation">
+              <!-- Horizontal data trails -->
+              <div class="data-trail trail-left-one"></div>
+              <div class="data-trail trail-left-two"></div>
+
+              <div class="data-trail trail-right-one"></div>
+              <div class="data-trail trail-right-two"></div>
+
+              <!-- Center vertical line -->
+              <div class="center-axis"></div>
+
+              <!-- Main J orb -->
+              <div class="flow-orb">
+                <div class="orb-ring orb-ring-one"></div>
+                <div class="orb-ring orb-ring-two"></div>
+
+                <span>J</span>
+              </div>
+
+              <!-- Arrow -->
+              <div class="flow-arrow">→</div>
+            </div>
+
+            <!-- =================================
+                 RIGHT: WITH JBIZFLOW
+                 ================================= -->
+            <div class="solution-panel">
+              <!-- Panel label -->
+              <div class="panel-label panel-label-success">
+                <span class="panel-status-icon"> ✓ </span>
+
+                WITH JBIZFLOW
+              </div>
+
+              <!-- Decorative network -->
+              <div class="solution-network"></div>
+
+              <!-- Main solution card -->
+              <div class="solution-card">
+                <!-- Card header -->
+                <div class="solution-header">
+                  <div class="solution-brand">
+                    <span class="solution-logo"> J </span>
+
+                    <div>
+                      <strong>JBizFlow</strong>
+
+                      <span> Business Workspace </span>
+                    </div>
+                  </div>
+
+                  <span class="solution-live">
+                    <span></span>
+
+                    Live
+                  </span>
+                </div>
+
+                <!-- Modules -->
+                <div class="solution-modules">
+                  <!-- Sales -->
+                  <div class="solution-module">
+                    <span class="module-icon module-purple"> $ </span>
+
+                    <div class="module-content">
+                      <strong>Sales</strong>
+
+                      <span> Track every transaction </span>
+                    </div>
+
+                    <span class="module-arrow"> → </span>
+                  </div>
+
+                  <!-- Inventory -->
+                  <div class="solution-module">
+                    <span class="module-icon module-blue"> ◇ </span>
+
+                    <div class="module-content">
+                      <strong>Inventory</strong>
+
+                      <span> Know what's in stock </span>
+                    </div>
+
+                    <span class="module-arrow"> → </span>
+                  </div>
+
+                  <!-- Customers -->
+                  <div class="solution-module">
+                    <span class="module-icon module-orange"> ♧ </span>
+
+                    <div class="module-content">
+                      <strong>Customers</strong>
+
+                      <span> Keep relationships organized </span>
+                    </div>
+
+                    <span class="module-arrow"> → </span>
+                  </div>
+
+                  <!-- Employees -->
+                  <div class="solution-module">
+                    <span class="module-icon module-green"> ♙ </span>
+
+                    <div class="module-content">
+                      <strong>Employees</strong>
+
+                      <span> Manage your team </span>
+                    </div>
+
+                    <span class="module-arrow"> → </span>
+                  </div>
+                </div>
+
+                <!-- Card footer -->
+                <div class="solution-footer">
+                  <div>
+                    <span class="footer-symbol"> ◇ </span>
+
+                    Everything connected. Everything in sync.
+                  </div>
+
+                  <span class="footer-success"> ✓ </span>
+                </div>
+              </div>
+
+              <!-- Bottom message -->
+              <div class="solution-message">
+                <span class="message-icon"> ☺ </span>
+
+                <div>
+                  <strong>One workspace.</strong>
+
+                  <span> One clear view. </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =====================================
+             BOTTOM STATEMENT
+             ===================================== -->
+          <div class="problem-bottom">
+            <span class="bottom-decoration"></span>
+
+            <p>
+              JBizFlow turns scattered business operations into
+              <strong>one connected workflow.</strong>
+            </p>
+
+            <span class="bottom-decoration"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+     JBIZFLOW EXPERIENCE / FEATURES SECTION
+     ========================================= -->
+      <section class="experience-section" id="features">
+        <!-- =====================================
+         BACKGROUND DECORATION
+         ===================================== -->
+
+        <div class="experience-grid"></div>
+
+        <div class="experience-orb experience-orb-one"></div>
+        <div class="experience-orb experience-orb-two"></div>
+
+        <div class="experience-particle exp-particle-one"></div>
+        <div class="experience-particle exp-particle-two"></div>
+        <div class="experience-particle exp-particle-three"></div>
+
+        <div class="container experience-container">
+          <!-- =====================================
+             SECTION INTRO
+             ===================================== -->
+
+          <div class="section-heading experience-heading">
+            <div class="section-eyebrow">
+              <span class="eyebrow-line"></span>
+
+              THE JBIZFLOW EXPERIENCE
+
+              <span class="eyebrow-line"></span>
+            </div>
+
+            <h2>
+              Everything your business needs,
+              <span>in one flow.</span>
+            </h2>
+
+            <p>
+              JBizFlow brings your everyday business operations together in one
+              intelligent workspace designed to keep everything moving.
+            </p>
+          </div>
+
+          <!-- =====================================
+             FEATURE EXPERIENCE
+             ===================================== -->
+
+          <div class="experience-showcase">
+            <!-- =================================
+                 LEFT FEATURE NAVIGATION
+                 ================================= -->
+
+            <div class="feature-navigation">
+              <div class="feature-nav-label">WORKSPACE</div>
+
+              <!-- Active feature -->
+
+              <button
+                class="feature-nav-item active"
+                data-feature="sales"
+                type="button">
+                <span class="feature-nav-icon"> $ </span>
+
+                <span class="feature-nav-text">
+                  <strong>Sales</strong>
+
+                  <small> Track every transaction </small>
+                </span>
+
+                <span class="feature-nav-arrow"> → </span>
+              </button>
+
+              <!-- Inventory -->
+
+              <button
+                class="feature-nav-item"
+                data-feature="inventory"
+                type="button">
+                <span class="feature-nav-icon"> ◇ </span>
+
+                <span class="feature-nav-text">
+                  <strong>Inventory</strong>
+
+                  <small> Stay ahead of your stock </small>
+                </span>
+
+                <span class="feature-nav-arrow"> → </span>
+              </button>
+
+              <!-- Customers -->
+
+              <button
+                class="feature-nav-item"
+                data-feature="customers"
+                type="button">
+                <span class="feature-nav-icon"> ♧ </span>
+
+                <span class="feature-nav-text">
+                  <strong>Customers</strong>
+
+                  <small> Build stronger relationships </small>
+                </span>
+
+                <span class="feature-nav-arrow"> → </span>
+              </button>
+
+              <!-- Employees -->
+
+              <button
+                class="feature-nav-item"
+                data-feature="employees"
+                type="button">
+                <span class="feature-nav-icon"> ♙ </span>
+
+                <span class="feature-nav-text">
+                  <strong>Employees</strong>
+
+                  <small> Keep your team organized </small>
+                </span>
+
+                <span class="feature-nav-arrow"> → </span>
+              </button>
+
+              <!-- Navigation footer -->
+
+              <div class="feature-nav-footer">
+                <span class="feature-nav-status"></span>
+
+                <span> All systems connected </span>
+              </div>
+            </div>
+
+            <!-- =================================
+                 MAIN FEATURE DISPLAY
+                 ================================= -->
+
+            <div class="feature-display">
+              <!-- Decorative top line -->
+
+              <div class="display-top-line">
+                <span></span>
+
+                <span></span>
+
+                <span></span>
+              </div>
+
+              <!-- =================================
+                     SALES DISPLAY
+                     ================================= -->
+
+              <div class="feature-content active" id="feature-sales">
+                <!-- Feature header -->
+
+                <div class="feature-display-header">
+                  <div>
+                    <span class="feature-overline"> SALES MANAGEMENT </span>
+
+                    <h3>
+                      Know exactly
+                      <span>what you're selling.</span>
+                    </h3>
+
+                    <p>
+                      Keep every transaction organized and get a clear picture
+                      of your sales performance.
+                    </p>
+                  </div>
+
+                  <div class="feature-header-icon">$</div>
+                </div>
+
+                <!-- =================================
+                         SALES DASHBOARD
+                         ================================= -->
+
+                <div class="mini-dashboard">
+                  <!-- Revenue -->
+
+                  <div class="metric-card">
+                    <div class="metric-card-top">
+                      <span> Revenue </span>
+
+                      <span class="metric-icon"> ↗ </span>
+                    </div>
+
+                    <strong> ₦248,500 </strong>
+
+                    <div class="metric-growth">
+                      <span> +18.4% </span>
+
+                      this month
+                    </div>
+                  </div>
+
+                  <!-- Orders -->
+
+                  <div class="metric-card">
+                    <div class="metric-card-top">
+                      <span> Orders </span>
+
+                      <span class="metric-icon"> # </span>
+                    </div>
+
+                    <strong> 1,284 </strong>
+
+                    <div class="metric-growth">
+                      <span> +12.8% </span>
+
+                      this month
+                    </div>
+                  </div>
+
+                  <!-- Average -->
+
+                  <div class="metric-card">
+                    <div class="metric-card-top">
+                      <span> Avg. Order </span>
+
+                      <span class="metric-icon"> ₦ </span>
+                    </div>
+
+                    <strong> ₦8,420 </strong>
+
+                    <div class="metric-growth">
+                      <span> +6.2% </span>
+
+                      this month
+                    </div>
+                  </div>
+
+                  <!-- Sales chart -->
+
+                  <div class="sales-chart-card">
+                    <div class="chart-header">
+                      <div>
+                        <strong> Sales overview </strong>
+
+                        <span> Last 7 months </span>
+                      </div>
+
+                      <span class="chart-period"> 2026 </span>
+                    </div>
+
+                    <div class="chart-area">
+                      <div class="chart-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+
+                      <svg
+                        class="sales-line"
+                        viewBox="0 0 700 220"
+                        preserveAspectRatio="none"
+                        aria-hidden="true">
+                        <defs>
+                          <linearGradient id="salesGradient" x1="0" x2="1">
+                            <stop offset="0%" stop-color="#7357ff" />
+
+                            <stop offset="100%" stop-color="#7fa8ff" />
+                          </linearGradient>
+                        </defs>
+
+                        <path
+                          d="
+                                        M0 180
+                                        C65 165 70 150 115 158
+                                        S175 120 225 135
+                                        S280 100 330 115
+                                        S390 80 435 95
+                                        S495 55 540 78
+                                        S610 35 700 48
+                                        "
+                          fill="none"
+                          stroke="url(#salesGradient)"
+                          stroke-width="4"
+                          stroke-linecap="round" />
+                      </svg>
+
+                      <div class="chart-months">
+                        <span>Jan</span>
+                        <span>Feb</span>
+                        <span>Mar</span>
+                        <span>Apr</span>
+                        <span>May</span>
+                        <span>Jun</span>
+                        <span>Jul</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Recent activity -->
+
+                  <div class="recent-activity">
+                    <div class="activity-heading">
+                      <strong> Recent sales </strong>
+
+                      <span> View all → </span>
+                    </div>
+
+                    <div class="activity-row">
+                      <div class="activity-product">
+                        <span class="activity-avatar"> A </span>
+
+                        <div>
+                          <strong> Ahmed Store </strong>
+
+                          <small> Order #JB-1048 </small>
+                        </div>
+                      </div>
+
+                      <strong class="activity-price"> +₦24,500 </strong>
+                    </div>
+
+                    <div class="activity-row">
+                      <div class="activity-product">
+                        <span class="activity-avatar avatar-two"> M </span>
+
+                        <div>
+                          <strong> Malik Ventures </strong>
+
+                          <small> Order #JB-1047 </small>
+                        </div>
+                      </div>
+
+                      <strong class="activity-price"> +₦12,800 </strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- =================================
+                     INVENTORY DISPLAY
+                     ================================= -->
+
+              <div class="feature-content" id="feature-inventory">
+                <div class="feature-display-header">
+                  <div>
+                    <span class="feature-overline"> INVENTORY MANAGEMENT </span>
+
+                    <h3>
+                      Never lose track
+                      <span>of your stock.</span>
+                    </h3>
+
+                    <p>
+                      Know what is available, what is running low and what needs
+                      your attention.
+                    </p>
+                  </div>
+
+                  <div class="feature-header-icon inventory-icon">◇</div>
+                </div>
+
+                <div class="inventory-board">
+                  <div class="inventory-summary">
+                    <div>
+                      <span>Total products</span>
+                      <strong>486</strong>
+                    </div>
+
+                    <div>
+                      <span>Low stock</span>
+                      <strong class="warning-number"> 18 </strong>
+                    </div>
+
+                    <div>
+                      <span>Out of stock</span>
+                      <strong class="danger-number"> 4 </strong>
+                    </div>
+                  </div>
+
+                  <div class="stock-list">
+                    <div class="stock-row stock-heading">
+                      <span>Product</span>
+                      <span>Category</span>
+                      <span>Stock</span>
+                      <span>Status</span>
+                    </div>
+
+                    <div class="stock-row">
+                      <div class="stock-product">
+                        <span class="product-box"> ◈ </span>
+
+                        <strong> Wireless Headphones </strong>
+                      </div>
+
+                      <span>Electronics</span>
+
+                      <strong>84</strong>
+
+                      <span class="stock-status good"> In stock </span>
+                    </div>
+
+                    <div class="stock-row">
+                      <div class="stock-product">
+                        <span class="product-box"> ◈ </span>
+
+                        <strong> Smart Watch </strong>
+                      </div>
+
+                      <span>Accessories</span>
+
+                      <strong>12</strong>
+
+                      <span class="stock-status low"> Low stock </span>
+                    </div>
+
+                    <div class="stock-row">
+                      <div class="stock-product">
+                        <span class="product-box"> ◈ </span>
+
+                        <strong> USB-C Charger </strong>
+                      </div>
+
+                      <span>Electronics</span>
+
+                      <strong>0</strong>
+
+                      <span class="stock-status out"> Out of stock </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- =================================
+                     CUSTOMERS DISPLAY
+                     ================================= -->
+
+              <div class="feature-content" id="feature-customers">
+                <div class="feature-display-header">
+                  <div>
+                    <span class="feature-overline"> CUSTOMER MANAGEMENT </span>
+
+                    <h3>
+                      Your customers,
+                      <span>always within reach.</span>
+                    </h3>
+
+                    <p>
+                      Keep customer information organized and understand the
+                      people behind your sales.
+                    </p>
+                  </div>
+
+                  <div class="feature-header-icon customer-feature-icon">♧</div>
+                </div>
+
+                <div class="customer-board">
+                  <div class="customer-stat">
+                    <span> Total customers </span>
+
+                    <strong> 2,840 </strong>
+
+                    <small> ↑ 14.6% this month </small>
+                  </div>
+
+                  <div class="customer-stat">
+                    <span> Returning </span>
+
+                    <strong> 68% </strong>
+
+                    <small> Customer retention </small>
+                  </div>
+
+                  <div class="customer-list">
+                    <div class="customer-list-header">
+                      <strong> Recent customers </strong>
+
+                      <span> View all → </span>
+                    </div>
+
+                    <div class="customer-row">
+                      <span class="customer-avatar"> A </span>
+
+                      <div>
+                        <strong> Ahmed Ibrahim </strong>
+
+                        <small> 8 purchases </small>
+                      </div>
+
+                      <span class="customer-value"> ₦84,200 </span>
+                    </div>
+
+                    <div class="customer-row">
+                      <span class="customer-avatar customer-avatar-two">
+                        S
+                      </span>
+
+                      <div>
+                        <strong> Sarah Ventures </strong>
+
+                        <small> 12 purchases </small>
+                      </div>
+
+                      <span class="customer-value"> ₦126,500 </span>
+                    </div>
+
+                    <div class="customer-row">
+                      <span class="customer-avatar customer-avatar-three">
+                        M
+                      </span>
+
+                      <div>
+                        <strong> Malik Stores </strong>
+
+                        <small> 5 purchases </small>
+                      </div>
+
+                      <span class="customer-value"> ₦48,900 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- =================================
+                     EMPLOYEES DISPLAY
+                     ================================= -->
+
+              <div class="feature-content" id="feature-employees">
+                <div class="feature-display-header">
+                  <div>
+                    <span class="feature-overline"> TEAM MANAGEMENT </span>
+
+                    <h3>
+                      Keep your team
+                      <span>moving together.</span>
+                    </h3>
+
+                    <p>
+                      Organize employees, monitor activity and keep everyone
+                      working from the same system.
+                    </p>
+                  </div>
+
+                  <div class="feature-header-icon employee-feature-icon">♙</div>
+                </div>
+
+                <div class="team-board">
+                  <div class="team-overview">
+                    <div class="team-total">
+                      <span> Team members </span>
+
+                      <strong> 24 </strong>
+                    </div>
+
+                    <div class="team-online">
+                      <span></span>
+
+                      19 active now
+                    </div>
+                  </div>
+
+                  <div class="team-members">
+                    <div class="team-member">
+                      <span class="team-avatar"> A </span>
+
+                      <div>
+                        <strong> Abdul Malik </strong>
+
+                        <small> Sales Manager </small>
+                      </div>
+
+                      <span class="member-status active"> Active </span>
+                    </div>
+
+                    <div class="team-member">
+                      <span class="team-avatar team-avatar-two"> F </span>
+
+                      <div>
+                        <strong> Fatima Bello </strong>
+
+                        <small> Inventory Manager </small>
+                      </div>
+
+                      <span class="member-status active"> Active </span>
+                    </div>
+
+                    <div class="team-member">
+                      <span class="team-avatar team-avatar-three"> K </span>
+
+                      <div>
+                        <strong> Kareem Yusuf </strong>
+
+                        <small> Sales Representative </small>
+                      </div>
+
+                      <span class="member-status away"> Away </span>
+                    </div>
+
+                    <div class="team-member">
+                      <span class="team-avatar team-avatar-four"> Z </span>
+
+                      <div>
+                        <strong> Zainab Ali </strong>
+
+                        <small> Accountant </small>
+                      </div>
+
+                      <span class="member-status active"> Active </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- =================================
+                     DISPLAY FOOTER
+                     ================================= -->
+
+              <div class="display-footer">
+                <span> JBizFlow Workspace </span>
+
+                <div>
+                  <span class="display-live-dot"></span>
+
+                  Live workspace preview
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- =====================================
+             BOTTOM FEATURE STRIP
+             ===================================== -->
+
+          <div class="experience-strip">
+            <div class="experience-strip-item">
+              <span>01</span>
+
+              <div>
+                <strong> Centralized </strong>
+
+                <small> Everything in one place </small>
+              </div>
+            </div>
+
+            <div class="experience-strip-divider"></div>
+
+            <div class="experience-strip-item">
+              <span>02</span>
+
+              <div>
+                <strong> Connected </strong>
+
+                <small> Your data works together </small>
+              </div>
+            </div>
+
+            <div class="experience-strip-divider"></div>
+
+            <div class="experience-strip-item">
+              <span>03</span>
+
+              <div>
+                <strong> Actionable </strong>
+
+                <small> Turn data into decisions </small>
+              </div>
+            </div>
+
+            <div class="experience-strip-divider"></div>
+
+            <div class="experience-strip-item">
+              <span>04</span>
+
+              <div>
+                <strong> Built to grow </strong>
+
+                <small> Ready for your next stage </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
