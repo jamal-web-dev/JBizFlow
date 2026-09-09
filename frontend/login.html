@@ -1,1 +1,202 @@
-r
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In — JBizFlow</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="auth-page">
+
+    <!-- Login Page -->
+    <main class="auth-wrapper login-wrapper">
+
+        <div class="auth-grid"></div>
+
+        <div class="auth-orb auth-orb-one"></div>
+        <div class="auth-orb auth-orb-two"></div>
+
+        <a href="index.html" class="auth-logo">
+            JBiz<span>Flow</span>
+        </a>
+
+        <section class="login-container">
+
+            <div class="login-intro">
+
+                <span class="auth-eyebrow">
+                    WELCOME BACK
+                </span>
+
+                <h1>
+                    Back to
+                    <span>business.</span>
+                </h1>
+
+                <p>
+                    Sign in to your JBizFlow workspace
+                    and keep your business moving.
+                </p>
+
+            </div>
+
+            <div class="login-card">
+
+                <div class="card-glow"></div>
+
+                <div class="form-header">
+                    <h2>Sign in</h2>
+                    <p>Enter your details to access your workspace.</p>
+                </div>
+
+                <form id="loginForm" novalidate>
+
+                    <div class="input-group">
+
+                        <label for="loginEmail">
+                            Email address
+                        </label>
+
+                        <div class="input-wrapper">
+
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="3" y="5" width="18" height="14" rx="2"/>
+                                <path d="m3 7 9 6 9-6"/>
+                            </svg>
+
+                            <input
+                                type="email"
+                                id="loginEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                            >
+
+                        </div>
+
+                        <small class="input-error"></small>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <div class="password-label-row">
+                            <label for="loginPassword">
+                                Password
+                            </label>
+
+                            <a href="#" class="forgot-password">
+                                Forgot password?
+                            </a>
+                        </div>
+
+                        <div class="input-wrapper">
+
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="4" y="10" width="16" height="11" rx="2"/>
+                                <path d="M8 10V7a4 4 0 0 1 8 0v3"/>
+                            </svg>
+
+                            <input
+                                type="password"
+                                id="loginPassword"
+                                name="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                            >
+
+                            <button
+                                type="button"
+                                class="password-toggle"
+                                id="loginPasswordToggle"
+                                aria-label="Show password"
+                            >
+
+                                <svg class="eye-open" viewBox="0 0 24 24">
+                                    <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+
+                                <svg class="eye-closed" viewBox="0 0 24 24">
+                                    <path d="m3 3 18 18"/>
+                                    <path d="M10.6 10.6a2 2 0 0 0 2.8 2.8"/>
+                                    <path d="M9.9 4.3A10.7 10.7 0 0 1 12 4c6.5 0 10 8 10 8a18 18 0 0 1-3.1 4.4"/>
+                                    <path d="M6.1 6.1C3.5 8.2 2 12 2 12s3.5 8 10 8c1.8 0 3.4-.5 4.8-1.2"/>
+                                </svg>
+
+                            </button>
+
+                        </div>
+
+                        <small class="input-error"></small>
+
+                    </div>
+
+
+                    <label class="remember-check">
+
+                        <input
+                            type="checkbox"
+                            id="rememberMe"
+                            name="remember"
+                        >
+
+                        <span class="custom-checkbox">
+                            <svg viewBox="0 0 24 24">
+                                <path d="m5 12 4 4L19 6"/>
+                            </svg>
+                        </span>
+
+                        <span>Remember me</span>
+
+                    </label>
+
+
+                    <button
+                        type="submit"
+                        class="register-button login-button"
+                    >
+
+                        <span>Sign in</span>
+
+                        <svg viewBox="0 0 24 24">
+                            <path d="M5 12h14"/>
+                            <path d="m13 6 6 6-6 6"/>
+                        </svg>
+
+                    </button>
+
+                </form>
+
+
+                <div class="auth-divider">
+                    <span>New to JBizFlow?</span>
+                </div>
+
+
+                <a href="register.html" class="login-link">
+                    Create your account
+                    <span>→</span>
+                </a>
+
+            </div>
+
+            <p class="auth-footer-text">
+                Your business. Better flow.
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>

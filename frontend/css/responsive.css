@@ -1669,3 +1669,461 @@
     }
 
 }
+
+/* =========================================
+   BUSINESS FLOW RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .business-flow {
+        grid-template-columns:
+            1fr 50px
+            1fr;
+        gap: 0;
+    }
+
+    .business-flow .flow-item:nth-of-type(3) {
+        grid-column: 1;
+    }
+
+    .business-flow .flow-item:nth-of-type(7) {
+        grid-column: 1;
+    }
+
+    .flow-connector {
+        min-height: 100%;
+    }
+
+    .flow-connector::before {
+        background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(143, 131, 255, 0.35)
+        );
+    }
+}
+
+
+@media (max-width: 760px) {
+
+    .business-flow-section {
+        padding: 110px 0;
+    }
+
+    .business-flow-header {
+        margin-bottom: 60px;
+    }
+
+    .business-flow-header h2 {
+        font-size: 38px;
+    }
+
+    .business-flow-header p {
+        font-size: 14px;
+    }
+
+    .business-flow {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .flow-item {
+        min-height: auto;
+        padding: 28px;
+    }
+
+    .flow-icon {
+        margin-bottom: 40px;
+    }
+
+    .flow-connector {
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .flow-connector::before {
+        width: 1px;
+        height: 100%;
+
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(143, 131, 255, 0.35),
+            transparent
+        );
+    }
+
+    .flow-growth {
+        gap: 15px;
+        margin-top: 55px;
+    }
+
+    .growth-line {
+        display: none;
+    }
+
+    .growth-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .growth-content h3 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .business-flow-header h2 {
+        font-size: 33px;
+    }
+
+    .flow-item {
+        border-radius: 20px;
+    }
+
+    .flow-content h3 {
+        font-size: 19px;
+    }
+
+    .flow-content p {
+        font-size: 13px;
+    }
+
+    .growth-content {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .control-section {
+        padding: 120px 0;
+    }
+
+    .control-container {
+        grid-template-columns: 1fr;
+        gap: 70px;
+    }
+
+    .control-copy {
+        max-width: 650px;
+    }
+
+    .control-visual {
+        min-height: 520px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .control-copy h2 {
+        font-size: 48px;
+    }
+
+    .control-visual {
+        min-height: 430px;
+    }
+
+    .control-main {
+        top: 35px;
+        width: 90%;
+        padding: 22px;
+    }
+
+    .control-revenue {
+        margin-top: 40px;
+    }
+
+    .control-revenue strong {
+        font-size: 29px;
+    }
+
+    .control-chart svg {
+        height: 150px;
+    }
+
+    .control-products {
+        left: 0;
+        bottom: 60px;
+    }
+
+    .control-sales {
+        right: -5px;
+        bottom: 0;
+    }
+
+    .control-team {
+        left: 5%;
+        top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .transform-section {
+        padding: 110px 0;
+    }
+
+    .transform-stage {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .transform-divider {
+        height: 65px;
+    }
+
+    .transform-arrow {
+        transform: rotate(90deg);
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .transform-heading h2 {
+        font-size: 40px;
+    }
+
+    .transform-side {
+        padding: 28px;
+        border-radius: 21px;
+    }
+
+    .transform-side h3 {
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .pricing-area {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .trust-section {
+        padding: 110px 0;
+    }
+
+    .trust-heading h2 {
+        font-size: 42px;
+    }
+
+    .trust-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .trust-stats div + div {
+        border-left: none;
+        border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    .pricing-area {
+        margin-top: 85px;
+    }
+
+    .pricing-intro h3 {
+        font-size: 31px;
+    }
+
+    .pricing-card {
+        padding: 27px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .final-cta-section {
+        padding: 120px 0;
+    }
+
+    .final-cta-container h2 {
+        font-size: 48px;
+    }
+
+    .final-cta-container p {
+        font-size: 14px;
+    }
+
+    .cta-actions {
+        flex-direction: column;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+        width: 100%;
+        max-width: 280px;
+    }
+
+}
+@media (max-width: 800px) {
+
+    .site-footer {
+        padding-top: 65px;
+    }
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px 35px;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+
+    .footer-bottom {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+
+    .footer-location {
+        justify-self: center;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-column a {
+        font-size: 11px;
+    }
+
+    .footer-bottom {
+        gap: 18px;
+    }
+
+}
+
+/* AUTHENTICATION — RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .auth-wrapper {
+        padding: 90px 16px 40px;
+    }
+
+    .auth-logo {
+        top: 25px;
+        left: 24px;
+        font-size: 20px;
+    }
+
+    .register-intro {
+        margin-bottom: 25px;
+    }
+
+    .register-intro h1 {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+
+    .register-intro p {
+        max-width: 340px;
+        font-size: 12px;
+    }
+
+    .register-card {
+        padding: 28px 20px;
+        border-radius: 20px;
+    }
+
+    .name-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .input-wrapper input {
+        height: 50px;
+    }
+
+    .auth-orb-one {
+        width: 280px;
+        height: 280px;
+    }
+
+    .auth-orb-two {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .auth-wrapper {
+        padding-inline: 12px;
+    }
+
+    .register-card {
+        padding: 24px 16px;
+    }
+
+    .register-intro h1 {
+        font-size: 35px;
+    }
+
+    .register-intro p {
+        font-size: 11px;
+    }
+}
+
+/* AUTHENTICATION — LOGIN RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    .login-wrapper {
+        padding-top: 85px;
+    }
+
+    .login-intro {
+        margin-bottom: 25px;
+    }
+
+    .login-intro h1 {
+        font-size: 40px;
+        letter-spacing: -2px;
+    }
+
+    .login-intro p {
+        max-width: 340px;
+        font-size: 12px;
+    }
+
+    .login-card {
+        padding: 28px 20px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .login-card {
+        padding: 24px 16px;
+    }
+
+    .login-intro h1 {
+        font-size: 35px;
+    }
+}
